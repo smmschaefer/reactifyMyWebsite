@@ -1,0 +1,33 @@
+div {
+	
+}
+
+#navDiv {
+	display: inline;
+	font-size: 1em;
+	padding-right: 1em;
+	float: left;
+}
+
+#footer {
+	height: 40px;
+	background: white;
+	color: black;
+	font-size: .5em;
+}
+
+.isRed {
+	@include border-radiusPick(2px);
+	
+	background: red;
+	
+}
+
+.secFlip {
+	padding-left: 100px;
+	height: 580px;
+}
+
+.flipBox {
+	display: inline-block;
+}
